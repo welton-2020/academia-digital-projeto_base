@@ -39,8 +39,8 @@ public class IMatriculaServiceImpl implements IMatriculaService {
         if (bairro == null){
             return matriculaRepository.findAll();
         }else {
-//            return matriculaRepository.findByAlunoBairro(bairro);
-            return matriculaRepository.findAlunoMatriculadosBairro(bairro);
+            return matriculaRepository.findByAlunoBairro(bairro);
+//            return matriculaRepository.findAlunoMatriculadosBairro(bairro);
         }
     }
 

@@ -29,4 +29,5 @@ public class AlunoForm {
   @NotBlank(message = "Preencha o campo corretamente.")
   @Past(message = "Data '${validatedValue}' é invalida")
   private LocalDate dataDeNascimento;
+
 }

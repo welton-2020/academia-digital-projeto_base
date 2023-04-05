@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface IMatriculaService {
+
   /**
    * Cria uma Matrícula e salva no banco de dados.
    * @param form - formulário referente aos dados para criação da Matrícula no banco de dados.
@@ -16,7 +17,6 @@ public interface IMatriculaService {
 
   /**
    * Retorna uma Matrícula que está no banco de dados de acordo com seu Id.
-   *
    * @param id - id da Matrícula que será exibida.
    * @return - Matrícula de acordo com o Id fornecido.
    */

@@ -28,6 +28,7 @@ public class IAvaliacaoFisicaServiceImpl implements IAvaliacaoFisicaService {
         fisica.setAluno(aluno);
         fisica.setPeso(form.getPeso());
         fisica.setAltura(form.getAltura());
+
         return repository.save(fisica);
     }
 

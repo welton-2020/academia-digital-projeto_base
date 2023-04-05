@@ -27,7 +27,6 @@ import java.util.List;
 @Table(name = "tb_aluno")
 @Entity
 public class Aluno {
-
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   @Column(name = "user_id")

@@ -22,6 +22,7 @@ import java.time.LocalDateTime;
 @Entity
 public class Matricula {
 
+
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   private Long id;

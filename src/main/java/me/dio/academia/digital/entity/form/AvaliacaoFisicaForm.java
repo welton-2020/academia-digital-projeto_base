@@ -6,7 +6,7 @@ import jakarta.validation.constraints.Positive;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import me.dio.academia.digital.entity.Aluno;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
@@ -23,4 +23,5 @@ public class AvaliacaoFisicaForm {
   @Positive(message = "${validatedValue}' precisa ser positivo.")
   @DecimalMin(value = "150",message = "${validatedValue}' precisa ser no mínimo {value}.")
   private double altura;
+
 }

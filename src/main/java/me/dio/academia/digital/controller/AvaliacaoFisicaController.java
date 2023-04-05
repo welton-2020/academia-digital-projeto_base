@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/avaliacoes")
 public class AvaliacaoFisicaController {
-
     @Autowired
     private IAvaliacaoFisicaServiceImpl service;
 
